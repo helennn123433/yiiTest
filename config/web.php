@@ -42,14 +42,15 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*
+        
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
+            'baseUrl' => 'http://localhost:8080/',
             'rules' => [
             ],
         ],
-        */
+        
     ],
     'params' => $params,
 ];
